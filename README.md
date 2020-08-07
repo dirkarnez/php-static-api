@@ -8,6 +8,11 @@ An Apache HTTP Server setup for the use of php (currently 5.6) as API and static
 3. `cd` back to `..`
 4. run `start.cmd`
 
+### Cookbook for Slim v3
+- [Uploading files using POST forms](http://www.slimframework.com/docs/v3/cookbook/uploading-files.html)
+- [Router](http://www.slimframework.com/docs/v3/objects/router.html)
+- [Using Eloquent with Slim](http://www.slimframework.com/docs/v3/cookbook/database-eloquent.html)
+
 ### Reference
 - [Pretty URLs, .htaccess, SPAs, and SEO](https://www.beyondjava.net/pretty-urls)
 - [Pretty URLs or HTML5 mode for any front-end SPA: Angular, React & more](https://ngmilk.rocks/2018/09/11/pretty-urls-or-html5-mode-for-any-front-end-spa/)
