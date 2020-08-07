@@ -6,5 +6,18 @@
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 
+<div id="data-div">Loading...</div>
+
+<script>
+fetch('/api/names/Nancy')
+    .then(response => response.status == 200 ? response.json() : [])
+    .then(jsonData => {
+        document.getElementById("data-div").innerText = (jsonData || []).join();
+    })
+    .catch(function(err) {
+        alert(err)
+    });
+</script>
+
 </body>
 </html>
