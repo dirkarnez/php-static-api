@@ -5,5 +5,3 @@ FROM php:7.2-apache
 
 RUN a2enmod rewrite \
  && echo "ServerName docker" >> /etc/apache2/apache2.conf
-
-RUN service apache2 restart
