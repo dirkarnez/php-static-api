@@ -1,6 +1,6 @@
 php-static-api
 ==============
-An Apache HTTP Server setup for the use of php (currently 5.6) as API and static pages at the same time
+An Apache HTTP Server setup for the use of php (currently 7.4.6) as API and static pages at the same time
 
 ### How to run
 1. `cd` to `api`
