@@ -1,0 +1,17 @@
+version: "3"
+services:
+  mariadb:
+    build: 
+      context: ./db
+    restart: always
+    ports:
+      - "3306:3306"
+  web:
+    image: php:7.4.6-apache
+    restart: always
+    volumes:
+      - ./server:/var/www/html
+    ports:
+      - "81:80"
+    depends_on:
+        - mariadb
