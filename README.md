@@ -22,3 +22,4 @@ An Apache HTTP Server setup for the use of php (currently 7.4.6) as API and stat
 - [Pretty URLs or HTML5 mode for any front-end SPA: Angular, React & more](https://ngmilk.rocks/2018/09/11/pretty-urls-or-html5-mode-for-any-front-end-spa/)
 - [apache服务器伪静态规则教程_htaccess](https://blog.csdn.net/weixin_41782053/article/details/80471193)
 - [santthosh/apache rewrite rule](https://gist.github.com/santthosh/7dabf08fa3859361ef1e)
+- https://github.com/selective-php/basepath
