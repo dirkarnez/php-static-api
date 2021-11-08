@@ -18,6 +18,7 @@ An Apache HTTP Server setup for the use of php (currently 7.4.6) as API and stat
 - [Quickstart with Docker in PhpStorm](https://www.youtube.com/watch?v=bWbXMy_mxxE)
 
 ### Reference
+- [**Htaccess转换Nginx伪静态规则 - 在线工具**](https://htaccess2nginx.buyaocha.com/)
 - [Pretty URLs, .htaccess, SPAs, and SEO](https://www.beyondjava.net/pretty-urls)
 - [Pretty URLs or HTML5 mode for any front-end SPA: Angular, React & more](https://ngmilk.rocks/2018/09/11/pretty-urls-or-html5-mode-for-any-front-end-spa/)
 - [apache服务器伪静态规则教程_htaccess](https://blog.csdn.net/weixin_41782053/article/details/80471193)
