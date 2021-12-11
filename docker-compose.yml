@@ -7,7 +7,7 @@ services:
     ports:
       - "3306:3306"
   web:
-    image: php:7.4.6-apache
+    image: php:8.0.0-apache
     restart: always
     volumes:
       - ./server:/var/www/html

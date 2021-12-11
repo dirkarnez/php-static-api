@@ -1,4 +1,4 @@
-FROM php:7.4.6-apache
+FROM php:8.0.0-apache
 
 # Don't know if need this line, keep as a note
 # RUN sed -e '/<Directory \/var\/www\/>/,/<\/Directory>/s/AllowOverride None/AllowOverride All/' -i /etc/apache2/apache2.conf
